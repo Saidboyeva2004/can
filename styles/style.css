@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    background: #322E41;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 100px;
+    height: 36px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.header__link {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 23px 22px;
+    display: block;
+    transition: 0.3s;
+}
+
+.header__link:hover {
+    background: #fff;
+    color: #D47300;
+}
+
+.header-content {
+    background: url(../images/bg.png) center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.header__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__text span {
+    font-weight: 700;
+}
+
+
+
+.nike {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.nike__about {
+    width: 540px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.nike__about-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nike__about-title,.nike__box-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+}
+
+.nike__about-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+.nike__block{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nike__box{
+    width: 255px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nike__box:nth-child(1),.nike__box:nth-child(2){
+    margin-bottom: 30px;
+}
+.nike__box-img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nike__box-img img{
+    width: 66px;
+}
+.nike__box-text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #9B9B9B;
+}
+
+.footer{
+    background: #322E41;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.footer__input{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    /* outline: none; */
+}
+.footer__area{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    height: 86px;
+    resize: none;
+    /* outline: none; */
+}
+.footer__button{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background: #544294;
+    border: none;
+    color: #fff;
+}
+.footer__button:hover{
+    background: #D47300;
+}
+.footer__nav{
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer__link{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer__link:hover{
+    color: #D47300;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__media{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
